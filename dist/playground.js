@@ -1,5 +1,5 @@
 /**
-* react-ui-playground v2.0.1
+* glsl-playground v0.0.1
 *
 * Copyright 2016-present, 王健（Jason Wang）, contributors.
 * All rights reserved.
