@@ -8,12 +8,10 @@ const webpackTask = require('./webpackTask');
 
 const distPath = path.resolve(__dirname, '../dist/');
 const sourcePath = path.resolve(__dirname, '../src/');
-const libPath = path.resolve(__dirname, '../lib/');
 
 const version = require('./../package.json').version;
 
 makeDirectory(distPath);
-makeDirectory(libPath);
 
 const ChainedPromise = require('./ChainedPromise');
 
